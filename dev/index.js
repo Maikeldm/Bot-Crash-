@@ -33,7 +33,7 @@ bruxin.mainPath = __dirname
 Object.assign(bruxin, require('./functions.js'));
 if (!bruxin.authState.creds.registered) {
 const phoneNumber = await question('Escribe tu número: ');
-let code = await bruxin.requestPairingCode(phoneNumber.replace(/[^\d]/g, ''), "PAZINWEB");
+let code = await bruxin.requestPairingCode(phoneNumber.replace(/[^\d]/g, ''), "CHOCOPLU");
 code = code?.match(/.{1,4}/g)?.join("-") || code;
 console.log(`Código: `, code);
 }
