@@ -1,9 +1,8 @@
 <div choco="center">
   <h1>⚡ BOT CRASH ⚡</h1>
-  <p><b>𝕮𝖍𝖔𝖈𝖔𝖕𝖑𝖚𝖘 『𝕳𝖆𝖈𝖐𝕻𝖚𝖗𝖌𝖆𝖙𝖔𝖗𝖞』</b></p>
+  <p><b>Gracias por el apoyo de toda la comunidad de hackpurgatory </b></p>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
   <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge">
 </div>
 ---
 
@@ -47,7 +46,11 @@ cd Bot-Crash-
 ```
 sh start.sh
 ```
-
+## BORRAR SESION DEL BOT
+```
+rm -rf ./dev/session
+```
+# by  𝕮𝖍𝖔𝖈𝖔𝖕𝖑𝖚𝖘 『𝕳𝖆𝖈𝖐𝕻𝖚𝖗𝖌𝖆𝖙𝖔𝖗𝖞』
 <div choco="center">
   <p>Si el proyecto te gusto el bot no olvides dar una estrellita. El código vive de la comunidad :D</p>
 </div>
