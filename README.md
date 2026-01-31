@@ -25,7 +25,7 @@
 
 1. **Entornos Controlados:** No me hago responsable por el mal uso del bot, el mal uso del bot queda bajo responsabilidad del usuario
 2. **No Resell**
-3. **Esta prohibido la venda y compra de este bot**
+3. **Esta prohibido la venta y compra de este bot**
 
 ---
 ## 🚀 Instalación en Termux
