@@ -6,6 +6,7 @@
 </div>
 ---
 
+
 ## 📊 CRASH 
 | 🤖 Android | `Active` |
 | 🍎 iOS | `Active` | 
@@ -25,7 +26,9 @@
 1. **Entornos Controlados:** No me hago responsable por el mal uso del bot, el mal uso del bot queda bajo responsabilidad del usuario
 2. **No Resell**
 3. **Esta prohibido la venta y compra de este bot**
-
+## RECOMENDACIONES 
+> **Solo aplica en el comando nullmax**
+> **Luego de ser enviando al número destinatario no debes mandarle mensaje con el mismo número que se lo enviaste de ser así se le quitara enseguida**
 ---
 ## 🚀 Instalación en Termux
 
